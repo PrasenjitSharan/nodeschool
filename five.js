@@ -1,6 +1,7 @@
-var exceptions = require('./base/errors/exceptions');
 var fs = require('fs');
 var path = require('path')
+
+var exceptions = require('./base/errors/exceptions');
 
 var dirPath = process.argv[2] ? process.argv[2] : '';
 var extn = process.argv[3] ? process.argv[3] : '';
